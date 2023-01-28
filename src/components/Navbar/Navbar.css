@@ -38,6 +38,5 @@
     background-color: var(--white-primary);
     color: var(--blue-primary);
     outline: none;
-    transition: 0.2s ease-in-out;
 }
 
