@@ -1,17 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import "./App.css";
+
+import Home from "./pages/Home/Home";
+import List from "./pages/List/List";
+import Hotel from "./pages/Hotel/Hotel";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/hotel" element={<List />} />
+        <Route path="/hotel/:id" element={<Hotel />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
