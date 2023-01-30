@@ -1,6 +1,7 @@
 :root {
   --blue-primary: #003b95;
   --white-primary: #ececec;
+  --max-witdh-screen: 1024px;
 
   font-size: 16px;
 }

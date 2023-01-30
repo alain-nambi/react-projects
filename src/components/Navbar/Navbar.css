@@ -1,4 +1,4 @@
-.navBar {
+.navbar {
     height: 4rem;
     background-color: var(--blue-primary);
     display: flex;
@@ -6,7 +6,7 @@
     border-bottom: 1px solid var(--white-primary);
 }
 
-.navBar__navContainer {
+.navbar__container {
     width: 100%;
     max-width: 1024px;
     color: var(--white-primary);
@@ -15,17 +15,17 @@
     justify-content: space-between;
 }
 
-.navBar__logo {
+.navbar__logo {
     font-weight: 800;
     font-size: 1.25rem;
 }
 
-.navBar__navItems {
+.navbar__items {
     display: flex;
     gap: 0.75rem;
 }
 
-.navBar__navButton {
+.navbar__button {
     font-size: 0.9rem;
     padding: 0.3rem 0.75rem;
     outline: 1px solid var(--white-primary);
@@ -34,7 +34,7 @@
     background-color: var(--blue-primary);
 }
 
-.navBar__navButton:hover {
+.navbar__button:hover {
     background-color: var(--white-primary);
     color: var(--blue-primary);
     outline: none;
