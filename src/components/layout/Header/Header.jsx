@@ -32,6 +32,15 @@ const Header = () => {
                         <span>Airport taxis</span>
                     </div>
                 </div>
+                <h1 className="header__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h1>
+                <p className="header__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid eaque veritatis atque quae alias?
+                </p>
+                <button className="header__button">
+                    SignIn/Register
+                </button>
             </div>
         </div>
     )

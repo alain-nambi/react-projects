@@ -27,6 +27,7 @@
 .navbar__button {
     font-size: 0.9rem;
     padding: 0.25rem 0.50rem;
+    border: none;
     outline: 1px solid var(--white-primary);
     color: var(--white-primary);
     cursor: pointer;
