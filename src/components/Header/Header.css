@@ -16,7 +16,7 @@
     gap: 1rem;
 }
 
-.header__list--item {
+.header__list-item {
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -25,12 +25,12 @@
     border-radius: 25px;
 }
 
-.header__list--item.active {
+.header__list-item.active {
     outline: 1px solid var(--white-primary);
     background-color: #1a4a8d;
 }
 
-.header__list--item:hover {
+.header__list-item:hover {
     outline: 1px solid #1a4a8d;
     background-color: #1a4a8d;
     cursor: pointer;
