@@ -1,19 +1,19 @@
-### Application de réservation d'un hôtel en ligne
+# Booking Management
 
-#### Tailwind
-Installation avec la documentation Vite (React) +  TailwindCSS
-
-#### FontAwesome
-Installation avec la documentation Font Awesome (React)
-
-#### React Date Range
-Installation avec la documentation React Date Range
+## Some libraries used in this project
+### FontAwesome
+Install fontawesome in React project
+### React Date Range
+Install React Date Range library in React
 
 
-#### Pages
-  - Home: page d'accueil
-  - List: liste des hôtels
-  - Hotel: détail de l'hôtel
 
-#### Composants
- - Navbar: barre de navigation (Menu)
+
+## Components
+### Pages
+1. Home: homepage
+2. List: list of hotels
+3. Hotel: hotel's details
+
+#### Layouts
+ - Navbar: navigation bar or menu
