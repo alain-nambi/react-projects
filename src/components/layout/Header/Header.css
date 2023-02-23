@@ -23,6 +23,7 @@
     font-size: 0.9rem;
     padding: 6px 12px;
     border-radius: 25px;
+    margin-bottom: 25px;
 }
 
 .header__list-item.active {
@@ -33,5 +34,19 @@
 .header__list-item:hover {
     outline: 1px solid #1a4a8d;
     background-color: #1a4a8d;
+    cursor: pointer;
+}
+
+.header__description {
+    margin: 20px 0;
+}
+
+.header__button {
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: #2467c6;
+    color: var(--white-primary);
+    border: none;
+    padding: 8px 12px;
     cursor: pointer;
 }
