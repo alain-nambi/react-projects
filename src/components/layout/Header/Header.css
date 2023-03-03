@@ -73,6 +73,14 @@
     gap: 10px;
 }
 
+.header__search-item:nth-child(2) {
+    width: 200px;
+}
+
+.header__search-item:nth-child(3) {
+    width: 250px; /* fix header__search width changing dynamically */
+}
+
 .header__search-item-input {
     border: none;
     outline: none;
@@ -117,7 +125,7 @@
 .option__counter {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     font-size: 0.8rem;
 }
 
@@ -126,6 +134,11 @@
     height: 30px;
     cursor: pointer;
     border: 1px solid var(--blue-primary);
+}
+
+.option__counter-number {
+    min-width: 25px;
+    text-align: center;
 }
 
 .option__counter-button:disabled {

@@ -27,8 +27,8 @@ const Header = () => {
     ]);
     const [openOptions, setOpenOptions] = useState(false);
     const [options, setOptions] = useState({
-        adult: 0,
-        room: 0,
+        adult: 1,
+        room: 1,
         children: 0,
     });
     const handleOption = (name, operation) => {
@@ -134,7 +134,7 @@ const Header = () => {
                                     <span className="option_text">Adult</span>
                                     <div className="option__counter">
                                         <button
-                                            disabled={options.adult <= 1}
+                                            disabled={options.adult < 1}
                                             className="option__counter-button"
                                             onClick={() => handleOption("adult", "dec")}
                                         >
@@ -155,7 +155,7 @@ const Header = () => {
                                     <span className="option_text">Children</span>
                                     <div className="option__counter">
                                         <button
-                                            disabled={options.children <= 1}
+                                            disabled={options.children < 1}
                                             className="option__counter-button"
                                             onClick={() => handleOption("children", "dec")}
                                         >
@@ -176,7 +176,7 @@ const Header = () => {
                                     <span className="option_text">Room</span>
                                     <div className="option__counter">
                                         <button
-                                            disabled={options.room <= 1}
+                                            disabled={options.room < 1}
                                             className="option__counter-button"
                                             onClick={() => handleOption("room", "dec")}
                                         >
