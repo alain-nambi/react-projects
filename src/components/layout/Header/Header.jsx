@@ -131,7 +131,7 @@ const Header = () => {
                         {openOptions && !openDate && (
                             <div className="options">
                                 <div className="option__item">
-                                    <span className="option_text">Adult</span>
+                                    <span className="option__text">Adult</span>
                                     <div className="option__counter">
                                         <button
                                             disabled={options.adult < 1}
@@ -152,7 +152,7 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="option__item">
-                                    <span className="option_text">Children</span>
+                                    <span className="option__text">Children</span>
                                     <div className="option__counter">
                                         <button
                                             disabled={options.children < 1}
@@ -173,7 +173,7 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="option__item">
-                                    <span className="option_text">Room</span>
+                                    <span className="option__text">Room</span>
                                     <div className="option__counter">
                                         <button
                                             disabled={options.room < 1}

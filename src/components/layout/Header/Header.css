@@ -139,6 +139,7 @@
 .option__counter-number {
     min-width: 25px;
     text-align: center;
+    max-width: 35px;
 }
 
 .option__counter-button:disabled {
